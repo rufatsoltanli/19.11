@@ -1,0 +1,33 @@
+#headerbot {
+    .leftside {
+        .dropdown {
+            transition: .4s !important;
+
+            position: relative;
+
+            ul {
+                border: 1px solid rgb(49, 49, 49);
+                height: 530px;
+                width: 284px;
+                position: absolute;
+                transition: .4s !important;
+                overflow: hidden;
+
+                li {
+                    transition: .4s !important;
+                    text-align: left;
+                    padding: 15px 10%;
+                    background-color: rgb(255, 255, 255);
+                }
+            }
+
+        }
+    }
+}
+
+.dropdownunVisible {
+    transition: .4s !important;
+    height: 0px !important;
+    overflow: hidden;
+
+}

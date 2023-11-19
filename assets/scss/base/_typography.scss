@@ -1,0 +1,90 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+
+    #navbar {
+        .middle {
+            li {
+                a {
+                    font-weight: 900;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .iprice {
+        .price {
+            font-weight: 900;
+        }
+    }
+
+    .icons {
+        .icon {
+            span {
+                font-size: 10px;
+                font-weight: 400;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+
+    #headerbot {
+        .leftside {
+            .departaments {
+                font-weight: 900;
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .rightside {
+            .icon {
+                i {
+                    font-size: 24px;
+                }
+            }
+
+            .contact {
+                .number {
+                    font-weight: 900;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .dropdown {
+            ul {
+                li {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    * {
+        main {
+            #poster {
+                .fruit {
+                    font-weight: 900;
+                    color: green;
+                }
+
+                .vegetable {
+                    font-weight: 900;
+                    font-size: 40px;
+
+                }
+
+                .organic {
+                    font-weight: 900;
+                    font-size: 46px;
+
+                }
+
+              
+            }
+        }
+    }
+}

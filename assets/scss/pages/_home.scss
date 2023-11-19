@@ -1,0 +1,54 @@
+main {
+    #poster {
+        display: flex;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        .empty {
+            width: 25%;
+        }
+
+        .postercont {
+            margin-left: 3px;
+            width: 75%;
+            background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp);
+            object-fit: contain;
+            background-size: cover;
+            min-height: 520px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .button {
+                width: 130px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #poster {
+
+
+        display: flex;
+        justify-content: center;
+
+        .empty {
+            display: none;
+        }
+
+        .postercont {
+
+            min-height: 520px;
+            width: 90%;
+            background-position: right;
+        }
+    }
+    .splide{
+        .splide__track{
+           flex-wrap: wrap;
+           
+        }
+    }
+}
